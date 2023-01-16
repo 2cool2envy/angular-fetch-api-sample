@@ -4,6 +4,8 @@
 
 This project demonstrate the integration of fetch API with Angular app. 
 
+Code-block path - fetch-api/src/app/app.component.ts
+
 ## What is fetch API?
 
 JavaScript inbuild method to request data from a server.
