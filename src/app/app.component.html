@@ -1,0 +1,9 @@
+<div>
+    <div class="custom-card" *ngFor="let user of userList">
+        <h2> {{user.name}}</h2>
+        <h4>{{user.company.name}} - <a href="mailto: {{user.email}} ">{{user.email}}</a> </h4>
+        <small>Phone: {{user.phone}} </small>
+        <br />
+        <small>Website: <a href="user.website" target="_blank"> {{user.website}} </a> </small>
+    </div>
+</div>
